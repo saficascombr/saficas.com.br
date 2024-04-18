@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sáfica.scom.br",
+  title: "Sáficas.com.br",
   description: "Sua fonte de informações sobre filmes, séries, livros e mais sobre a cultura sáfica",
 };
 
