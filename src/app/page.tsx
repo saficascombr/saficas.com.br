@@ -13,7 +13,7 @@ export default function Home() {
       <main className="w-screen h-screen bg-gradient-to-b from-[#FF89AC] via-[#ff89accb] to-[#ff89ac00]">
 
         {/* LOGO */}
-        <div className="flex justify-center pt-10">
+        <div className="flex justify-center pt-10 md:px-0 px-10">
           <Image
               alt="Logo do Sáficas.com.br"
               src={logo}
@@ -62,10 +62,10 @@ export default function Home() {
         {/* redes */}
         <div className="flex justify-center pt-20">
           <div className="bg-[#EDEDED] xl:py-1 xl:px-6 mx-2 border-2 border-stone-900 rounded-3xl">
-            <p className="text-[#181818] text-4xl p-1 font-glass text-center">enquanto isso, nos acompanhe nas redes sociais</p>
+            <p className="text-[#181818] md:text-4xl text-3xl p-1 font-glass text-center">enquanto isso, nos acompanhe nas redes sociais</p>
           </div>
         </div>
-        <div className="flex justify-center pt-5 gap-2">
+        <div className="flex justify-center pt-5 gap-2 md:px-0 px-5">
           <a href="https://twitter.com/saficascombr" target="_blank" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
             <Image
               alt="Twitter"
