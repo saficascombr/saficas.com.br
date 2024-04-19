@@ -60,58 +60,61 @@ export default function Home() {
         </div> 
 
         {/* redes */}
-        <div className="flex justify-center pt-20">
-          <div className="bg-[#EDEDED] xl:py-1 xl:px-6 mx-2 border-2 border-stone-900 rounded-3xl">
-            <p className="text-[#181818] md:text-4xl text-3xl p-1 font-glass text-center">enquanto isso, nos acompanhe nas redes sociais</p>
+        <div>
+          <div className="flex justify-center pt-20">
+            <div className="bg-[#EDEDED] xl:py-1 xl:px-6 mx-2 border-2 border-stone-900 rounded-3xl">
+              <p className="text-[#181818] md:text-4xl text-3xl p-1 font-glass text-center">enquanto isso, nos acompanhe nas redes sociais</p>
+            </div>
+          </div>
+          <div className="flex justify-center pt-5 gap-2 md:px-0 px-5">
+            <a href="https://twitter.com/saficascombr" target="_blank" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
+              <Image
+                alt="Twitter"
+                src={twitter}
+                width={50}
+                height={50}
+                className="p-1 hover:transform hover:scale-110 hover:opacity-80 duration-300 ease-in-out"
+              />
+            </a>
+            <a href="https://instagram.com/saficas.com.br" target="_blank" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
+              <Image
+                alt="Instagram"
+                src={instagram}
+                width={50}
+                height={50}
+                className="p-1 hover:transform hover:scale-110 hover:opacity-80 duration-300 ease-in-out"
+              />
+            </a>
+            <a href="https://www.tiktok.com/@saficas.com.br?_t=8ldfvWX9fK1&_r=1" target="_blank" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
+              <Image
+                alt="Tiktok"
+                src={tiktok}
+                width={50}
+                height={50}
+                className="p-1 hover:transform hover:scale-110 hover:opacity-80 duration-300 ease-in-out"
+              />
+            </a>
+            <a href="https://t.me/saficascombr" target="_blank" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
+              <Image
+                alt="Telegram"
+                src={telegram}
+                width={50}
+                height={50}
+                className="p-1 hover:transform hover:scale-110 hover:opacity-80 duration-300 ease-in-out"
+              />
+            </a>
+            <a href="https://whatsapp.com/channel/0029VaWM1RWDZ4LcdMrrM23Z" target="_blank" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
+              <Image
+                alt="Whatsapp"
+                src={whatsapp}
+                width={50}
+                height={50}
+                className="p-1 hover:transform hover:scale-110 hover:opacity-80 duration-300 ease-in-out"
+              />
+            </a>
           </div>
         </div>
-        <div className="flex justify-center pt-5 gap-2 md:px-0 px-5">
-          <a href="https://twitter.com/saficascombr" target="_blank" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
-            <Image
-              alt="Twitter"
-              src={twitter}
-              width={50}
-              height={50}
-              className="p-1"
-            />
-          </a>
-          <a href="https://instagram.com/saficas.com.br" target="_blank" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
-            <Image
-              alt="Instagram"
-              src={instagram}
-              width={50}
-              height={50}
-              className="p-1"
-            />
-          </a>
-          <a href="https://www.tiktok.com/@saficas.com.br?_t=8ldfvWX9fK1&_r=1" target="_blank" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
-            <Image
-              alt="Tiktok"
-              src={tiktok}
-              width={50}
-              height={50}
-              className="p-1"
-            />
-          </a>
-          <a href="https://t.me/saficascombr" target="_blank" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
-            <Image
-              alt="Telegram"
-              src={telegram}
-              width={50}
-              height={50}
-              className="p-1"
-            />
-          </a>
-          <a href="https://whatsapp.com/channel/0029VaWM1RWDZ4LcdMrrM23Z" target="_blank" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
-            <Image
-              alt="Whatsapp"
-              src={whatsapp}
-              width={50}
-              height={50}
-              className="p-1"
-            />
-          </a>
-        </div>
+        
         
 
       </main>
