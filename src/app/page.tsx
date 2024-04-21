@@ -9,15 +9,17 @@ import whatsapp from '@/assets/whatsapp.svg'
 
 export default function Home() {
   return (
-    <header className="bg-[url('https://r2.easyimg.io/hkcax6rj7/pattern.png')] w-screen h-screen bg-cover">
-      <main className="w-screen h-screen bg-gradient-to-b from-[#FF89AC] via-[#ff89accb] to-[#ff89ac00]">
+    <header className="relative w-screen h-screen">
+      <div className="absolute inset-0 bg-[url('https://r2.easyimg.io/hkcax6rj7/pattern.png')] bg-cover bg-center"></div>
+      <main className="relative z-10 flex flex-col justify-center items-center w-full h-full px-5 text-center bg-gradient-to-b from-[#FF89AC] via-[#ff89accb] to-[#ff89ac00]">
 
         {/* LOGO */}
-        <div className="flex justify-center pt-10 md:px-0 px-10">
+        <div className="flex justify-center pt-2 md:px-0 px-10">
           <Image
               alt="Logo do Sáficas.com.br"
               src={logo}
               width={400}
+              height={120}
           />
         </div>
         
@@ -55,6 +57,7 @@ export default function Home() {
             alt="Martelo"
             src={hammer}
             width={100}
+            height={100} // Ajuste a altura conforme necessário
             className="hammer-svg absolute ml-56 mt-16"
           />
         </div> 
@@ -115,8 +118,6 @@ export default function Home() {
           </div>
         </div>
         
-        
-
       </main>
     </header>
   );
