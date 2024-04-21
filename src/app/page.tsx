@@ -9,7 +9,7 @@ import whatsapp from '@/assets/whatsapp.svg'
 
 export default function Home() {
   return (
-    <header className="bg-[url('https://r2.easyimg.io/hkcax6rj7/pattern.png')] w-screen h-screen">
+    <header className="bg-[url('https://r2.easyimg.io/hkcax6rj7/pattern.png')] w-screen h-screen bg-cover">
       <main className="w-screen h-screen bg-gradient-to-b from-[#FF89AC] via-[#ff89accb] to-[#ff89ac00]">
 
         {/* LOGO */}
@@ -66,8 +66,8 @@ export default function Home() {
               <p className="text-[#181818] md:text-4xl text-3xl p-1 font-glass text-center">enquanto isso, nos acompanhe nas redes sociais</p>
             </div>
           </div>
-          <div className="flex justify-center pt-5 gap-2 md:px-0 px-5">
-            <a href="https://twitter.com/saficascombr" target="_blank" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
+          <div className="flex justify-center py-5 gap-2 md:px-0 px-5">
+            <a href="https://twitter.com/saficascombr" target="_blank" title="Twitter" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
               <Image
                 alt="Twitter"
                 src={twitter}
@@ -76,7 +76,7 @@ export default function Home() {
                 className="p-1 hover:transform hover:scale-110 hover:opacity-80 duration-300 ease-in-out"
               />
             </a>
-            <a href="https://instagram.com/saficas.com.br" target="_blank" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
+            <a href="https://instagram.com/saficas.com.br" target="_blank" title="Instagram" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
               <Image
                 alt="Instagram"
                 src={instagram}
@@ -85,7 +85,7 @@ export default function Home() {
                 className="p-1 hover:transform hover:scale-110 hover:opacity-80 duration-300 ease-in-out"
               />
             </a>
-            <a href="https://www.tiktok.com/@saficas.com.br?_t=8ldfvWX9fK1&_r=1" target="_blank" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
+            <a href="https://www.tiktok.com/@saficas.com.br?_t=8ldfvWX9fK1&_r=1" target="_blank" title="Tiktok" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
               <Image
                 alt="Tiktok"
                 src={tiktok}
@@ -94,7 +94,7 @@ export default function Home() {
                 className="p-1 hover:transform hover:scale-110 hover:opacity-80 duration-300 ease-in-out"
               />
             </a>
-            <a href="https://t.me/saficascombr" target="_blank" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
+            <a href="https://t.me/saficascombr" target="_blank" title="Telegram" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
               <Image
                 alt="Telegram"
                 src={telegram}
@@ -103,7 +103,7 @@ export default function Home() {
                 className="p-1 hover:transform hover:scale-110 hover:opacity-80 duration-300 ease-in-out"
               />
             </a>
-            <a href="https://whatsapp.com/channel/0029VaWM1RWDZ4LcdMrrM23Z" target="_blank" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
+            <a href="https://whatsapp.com/channel/0029VaWM1RWDZ4LcdMrrM23Z" target="_blank" title="Whatsapp" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
               <Image
                 alt="Whatsapp"
                 src={whatsapp}
