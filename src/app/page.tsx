@@ -70,48 +70,38 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-center py-5 gap-2 md:px-0 px-5">
-            <a href="https://twitter.com/saficascombr" target="_blank" title="Twitter" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
+            <a href="https://twitter.com/saficascombr" target="_blank" title="Twitter" className="bg-[#EDEDED] rounded-full h-14 w-14 sm:h-20 sm:w-20 text-black p-3 border-2 border-stone-900 place-content-center">
               <Image
                 alt="Twitter"
                 src={twitter}
-                width={50}
-                height={50}
                 className="p-1 sm:hover:transform sm:hover:scale-110 sm:hover:opacity-80 sm:duration-300 sm:ease-in-out"
               />
             </a>
-            <a href="https://instagram.com/saficas.com.br" target="_blank" title="Instagram" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
+            <a href="https://instagram.com/saficas.com.br" target="_blank" title="Instagram" className="bg-[#EDEDED] rounded-full h-14 w-14 sm:h-20 sm:w-20 text-black p-3 border-2 border-stone-900 place-content-center">
               <Image
                 alt="Instagram"
                 src={instagram}
-                width={50}
-                height={50}
                 className="p-1 sm:hover:transform sm:hover:scale-110 sm:hover:opacity-80 sm:duration-300 sm:ease-in-out"
               />
             </a>
-            <a href="https://www.tiktok.com/@saficas.com.br?_t=8ldfvWX9fK1&_r=1" target="_blank" title="Tiktok" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
+            <a href="https://www.tiktok.com/@saficas.com.br?_t=8ldfvWX9fK1&_r=1" target="_blank" title="Tiktok" className="bg-[#EDEDED] rounded-full h-14 w-14 sm:h-20 sm:w-20 text-black p-3 border-2 border-stone-900 place-content-center">
               <Image
                 alt="Tiktok"
                 src={tiktok}
-                width={50}
-                height={50}
                 className="p-1 sm:hover:transform sm:hover:scale-110 sm:hover:opacity-80 sm:duration-300 sm:ease-in-out"
               />
             </a>
-            <a href="https://t.me/saficascombr" target="_blank" title="Telegram" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
+            <a href="https://t.me/saficascombr" target="_blank" title="Telegram" className="bg-[#EDEDED] rounded-full h-14 w-14 sm:h-20 sm:w-20 text-black p-3 border-2 border-stone-900 place-content-center">
               <Image
                 alt="Telegram"
                 src={telegram}
-                width={50}
-                height={50}
                 className="p-1 sm:hover:transform sm:hover:scale-110 sm:hover:opacity-80 sm:duration-300 sm:ease-in-out"
               />
             </a>
-            <a href="https://whatsapp.com/channel/0029VaWM1RWDZ4LcdMrrM23Z" target="_blank" title="Whatsapp" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
+            <a href="https://whatsapp.com/channel/0029VaWM1RWDZ4LcdMrrM23Z" target="_blank" title="Whatsapp" className="bg-[#EDEDED] rounded-full h-14 w-14 sm:h-20 sm:w-20 text-black p-3 border-2 border-stone-900 place-content-center">
               <Image
                 alt="Whatsapp"
                 src={whatsapp}
-                width={50}
-                height={50}
                 className="p-1 sm:hover:transform sm:hover:scale-110 sm:hover:opacity-80 sm:duration-300 sm:ease-in-out"
               />
             </a>
