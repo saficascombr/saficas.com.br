@@ -10,8 +10,8 @@ import whatsapp from '@/assets/whatsapp.svg'
 export default function Home() {
   return (
     <header className="relative w-screen h-screen">
-      <div className="absolute inset-0 bg-[url('https://r2.easyimg.io/hkcax6rj7/pattern.png')] bg-cover bg-center"></div>
-      <main className="relative z-10 flex flex-col justify-center items-center w-full h-full px-5 text-center bg-gradient-to-b from-[#FF89AC] via-[#ff89accb] to-[#ff89ac00]">
+      <div className="absolute inset-0 bg-[url('https://r2.easyimg.io/hkcax6rj7/pattern.png')] bg-cover"></div>
+      <main className="relative z-10 flex flex-col justify-center items-center w-screen h-screen px-5 text-center bg-gradient-to-b from-[#FF89AC] via-[#ff89accb] to-[#ff89ac00]">
 
         {/* LOGO */}
         <div className="flex justify-center pt-2 md:px-0 px-10">
@@ -76,7 +76,7 @@ export default function Home() {
                 src={twitter}
                 width={50}
                 height={50}
-                className="p-1 hover:transform hover:scale-110 hover:opacity-80 duration-300 ease-in-out"
+                className="p-1 sm:hover:transform sm:hover:scale-110 sm:hover:opacity-80 sm:duration-300 sm:ease-in-out"
               />
             </a>
             <a href="https://instagram.com/saficas.com.br" target="_blank" title="Instagram" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
@@ -85,7 +85,7 @@ export default function Home() {
                 src={instagram}
                 width={50}
                 height={50}
-                className="p-1 hover:transform hover:scale-110 hover:opacity-80 duration-300 ease-in-out"
+                className="p-1 sm:hover:transform sm:hover:scale-110 sm:hover:opacity-80 sm:duration-300 sm:ease-in-out"
               />
             </a>
             <a href="https://www.tiktok.com/@saficas.com.br?_t=8ldfvWX9fK1&_r=1" target="_blank" title="Tiktok" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
@@ -94,7 +94,7 @@ export default function Home() {
                 src={tiktok}
                 width={50}
                 height={50}
-                className="p-1 hover:transform hover:scale-110 hover:opacity-80 duration-300 ease-in-out"
+                className="p-1 sm:hover:transform sm:hover:scale-110 sm:hover:opacity-80 sm:duration-300 sm:ease-in-out"
               />
             </a>
             <a href="https://t.me/saficascombr" target="_blank" title="Telegram" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
@@ -103,7 +103,7 @@ export default function Home() {
                 src={telegram}
                 width={50}
                 height={50}
-                className="p-1 hover:transform hover:scale-110 hover:opacity-80 duration-300 ease-in-out"
+                className="p-1 sm:hover:transform sm:hover:scale-110 sm:hover:opacity-80 sm:duration-300 sm:ease-in-out"
               />
             </a>
             <a href="https://whatsapp.com/channel/0029VaWM1RWDZ4LcdMrrM23Z" target="_blank" title="Whatsapp" className="bg-[#EDEDED] rounded-full h-50 w-50 text-black p-3 border-2 border-stone-900 place-content-center">
@@ -112,7 +112,7 @@ export default function Home() {
                 src={whatsapp}
                 width={50}
                 height={50}
-                className="p-1 hover:transform hover:scale-110 hover:opacity-80 duration-300 ease-in-out"
+                className="p-1 sm:hover:transform sm:hover:scale-110 sm:hover:opacity-80 sm:duration-300 sm:ease-in-out"
               />
             </a>
           </div>
