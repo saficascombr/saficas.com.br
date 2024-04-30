@@ -10,7 +10,7 @@ import whatsapp from '@/assets/whatsapp.svg'
 export default function Home() {
   return (
     <header className="relative w-screen h-screen">
-      <div className="absolute inset-0 bg-[url('https://r2.easyimg.io/hkcax6rj7/pattern.png')] bg-cover"></div>
+      <div className="absolute inset-0 bg-[url('https://i.postimg.cc/jdcWPyZV/pattern.png')] bg-cover"></div>
       <main className="relative z-10 flex flex-col justify-center items-center w-screen h-screen px-5 text-center bg-gradient-to-b from-[#FF89AC] via-[#ff89accb] to-[#ff89ac00]">
 
         {/* LOGO */}
@@ -88,7 +88,7 @@ export default function Home() {
               <Image
                 alt="Tiktok"
                 src={tiktok}
-                className="p-1 sm:hover:transform sm:hover:scale-110 sm:hover:opacity-80 sm:duration-300 sm:ease-in-out"
+                className="p-1 sm:hover:transform sm:hover:scale-110 sm:hover:opacity-80 sm:duration-300 sm:ease-in-out sm:pl-2"
               />
             </a>
             <a href="https://t.me/saficascombr" target="_blank" title="Telegram" className="bg-[#EDEDED] rounded-full h-14 w-14 sm:h-20 sm:w-20 text-black p-3 border-2 border-stone-900 place-content-center">

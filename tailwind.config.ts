@@ -21,7 +21,7 @@ const config: Config = {
     },
     extend: {
       backgroundImage: {
-        'pink checkered': "url('https://r2.easyimg.io/hkcax6rj7/pattern.png')"
+        'pattern': '@/assets/pattern'
       },
       colors: {
       },
