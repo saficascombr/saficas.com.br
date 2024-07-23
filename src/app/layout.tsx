@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sáficas.com.br",
-  description: "Sua fonte de informações sobre filmes, séries, livros e mais sobre a cultura sáfica",
+  title: "Leitometro",
+  description: "Cronômetro de leitura",
 };
 
 export default function RootLayout({

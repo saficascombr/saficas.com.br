@@ -17,7 +17,7 @@ const config: Config = {
       '2xl': '1536px',
     },
     fontFamily: {
-      glass: ["Glass Antiqua", "cursive"]
+      play: ["Playco", "serif"]
     },
     extend: {
       backgroundImage: {
